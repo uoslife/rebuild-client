@@ -3,7 +3,7 @@ PODS:
   - boost (1.83.0)
   - BVLinearGradient (2.8.3):
     - React-Core
-  - CodePush (8.0.2):
+  - CodePush (8.2.2):
     - Base64 (~> 1.1)
     - JWT (~> 3.0.0-beta.12)
     - React-Core
@@ -1117,7 +1117,7 @@ PODS:
     - Yoga
   - react-native-render-html (6.3.4):
     - React-Core
-  - react-native-safe-area-context (4.7.1):
+  - react-native-safe-area-context (4.10.3):
     - React-Core
   - react-native-user-agent (2.3.1):
     - React
@@ -1404,16 +1404,7 @@ PODS:
     - FirebaseCoreExtension (= 10.10.0)
     - React-Core
     - RNFBApp
-  - RNGestureHandler (2.11.0):
-    - React-Core
-  - RNNotifee (7.7.1):
-    - React-Core
-    - RNNotifee/NotifeeCore (= 7.7.1)
-  - RNNotifee/NotifeeCore (7.7.1):
-    - React-Core
-  - RNPermissions (3.10.0):
-    - React-Core
-  - RNReanimated (3.8.1):
+  - RNGestureHandler (2.16.2):
     - DoubleConversion
     - glog
     - hermes-engine
@@ -1434,9 +1425,56 @@ PODS:
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
     - Yoga
-  - RNScreens (3.20.0):
+  - RNNotifee (7.7.1):
     - React-Core
+    - RNNotifee/NotifeeCore (= 7.7.1)
+  - RNNotifee/NotifeeCore (7.7.1):
+    - React-Core
+  - RNPermissions (3.10.0):
+    - React-Core
+  - RNReanimated (3.11.0):
+    - DoubleConversion
+    - glog
+    - hermes-engine
+    - RCT-Folly (= 2024.01.01.00)
+    - RCTRequired
+    - RCTTypeSafety
+    - React-Codegen
+    - React-Core
+    - React-debug
+    - React-Fabric
+    - React-featureflags
+    - React-graphics
+    - React-ImageManager
+    - React-NativeModulesApple
+    - React-RCTFabric
+    - React-rendererdebug
+    - React-utils
+    - ReactCommon/turbomodule/bridging
+    - ReactCommon/turbomodule/core
+    - Yoga
+  - RNScreens (3.31.1):
+    - DoubleConversion
+    - glog
+    - hermes-engine
+    - RCT-Folly (= 2024.01.01.00)
+    - RCTRequired
+    - RCTTypeSafety
+    - React-Codegen
+    - React-Core
+    - React-debug
+    - React-Fabric
+    - React-featureflags
+    - React-graphics
+    - React-ImageManager
+    - React-NativeModulesApple
+    - React-RCTFabric
     - React-RCTImage
+    - React-rendererdebug
+    - React-utils
+    - ReactCommon/turbomodule/bridging
+    - ReactCommon/turbomodule/core
+    - Yoga
   - RNSentry (5.22.3):
     - hermes-engine
     - React-Core
@@ -1732,7 +1770,7 @@ SPEC CHECKSUMS:
   Base64: cecfb41a004124895a7bcee567a89bae5a89d49b
   boost: d3f49c53809116a5d38da093a8aa78bf551aed09
   BVLinearGradient: 880f91a7854faff2df62518f0281afb1c60d49a3
-  CodePush: 9eddecce05cd10491e2673b259c85885a462be33
+  CodePush: eaa66fc8dd9ff611304ecc48397ce8831ba79ac9
   DoubleConversion: 76ab83afb40bddeeee456813d9c04f67f78771b5
   FBLazyVector: 898d14d17bf19e2435cafd9ea2a1033efe445709
   Firebase: facd334e557a979bd03a0b58d90fd56b52b8aba0
@@ -1785,7 +1823,7 @@ SPEC CHECKSUMS:
   react-native-mmkv: 9ae7ca3977e8ef48dbf7f066974eb844c20b5fd7
   react-native-pager-view: b4ba00095f74ab430250cef2a119a5e2491b2c8d
   react-native-render-html: 984dfe2294163d04bf5fe25d7c9f122e60e05ebe
-  react-native-safe-area-context: 9697629f7b2cda43cf52169bb7e0767d330648c2
+  react-native-safe-area-context: b01d8f42d4e62a7be5a3e69fd332e0c7e67584c7
   react-native-user-agent: a90a1e839b99801baad67a73dd6f361a52aa3cf1
   react-native-webview: bd1c6c2661bb51e45469c7badb02ccdcef93671b
   React-nativeconfig: 21d89c65ca39875fad2c5c465e0e013e514eba21
@@ -1821,11 +1859,11 @@ SPEC CHECKSUMS:
   RNFBApp: 10aa0ab560e30186c39a9756846945cac6499ea7
   RNFBCrashlytics: 74ae7a78db91634eb83ecbf82202f21be49afd73
   RNFBMessaging: a0cf20be8f41d89af98f5611d5db432c59371f68
-  RNGestureHandler: 026038a97d4c8649ce397a22e162ca58b4e6c230
+  RNGestureHandler: 20a4307fd21cbff339abfcfa68192f3f0a6a518b
   RNNotifee: 05692d7bb42b6c718a3906aeb8431c48ff2e8097
   RNPermissions: b9843ffdb72fb099f8fe7f04e709cb511d5161c8
-  RNReanimated: 1522546f18d7a1c0b69e708cc3417a74a4f67d95
-  RNScreens: 218801c16a2782546d30bd2026bb625c0302d70f
+  RNReanimated: 82d44098f1640ac390d073bca26264d52a67dc7d
+  RNScreens: 30249f9331c3b00ae7cb7922e11f58b3ed369c07
   RNSentry: 7e184247ee04989474d12cce0b7ef7bc4a71632f
   RNSVG: d00c8f91c3cbf6d476451313a18f04d220d4f396
   SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
